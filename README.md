@@ -10,6 +10,21 @@ A lightweight Python project that uses a neural network to predict the probabili
 
 ---
 
+## Core Features
+
+Our model relies on eight physically meaningful inputs, each directly tied to habitability criteria:
+
+| Feature       | Units                  | Meaning                                                                 |
+|--------------:|-----------------------:|-------------------------------------------------------------------------|
+| **pl_rade**   | Earth radii            | Planet radius, distinguishing rocky worlds (smaller) from gas giants   |
+| **pl_bmasse** | Earth masses           | Planet mass, combined with radius to infer bulk density                 |
+| **pl_orbsmax**| Astronomical units     | Semi-major axis: distance from host star, controlling temperature       |
+| **pl_orbeccen**| (unitless)            | Orbital eccentricity: high values cause extreme temperature swings      |
+| **pl_insol**  | Earth flux             | Insolation: stellar energy received, key for being in the “Goldilocks” zone |
+| **st_teff**   | Kelvin                 | Stellar effective temperature, determining star’s spectral output       |
+| **st_rad**    | Solar radii            | Stellar radius, affecting the size and distance of the habitable zone   |
+| **st_mass**   | Solar masses           | Stellar mass, correlating with luminosity and main-sequence lifetime    |
+
 ## 📁 Project Structure
 
 ```
