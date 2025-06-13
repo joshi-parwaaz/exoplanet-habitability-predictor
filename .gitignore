@@ -7,9 +7,7 @@ __pycache__/
 .ipynb_checkpoints/
 
 # Data files
-data/artifacts/
 data/exoplanets_raw.csv
-data/exoplanets_processed.csv
 
 # IDE files
 .vscode/

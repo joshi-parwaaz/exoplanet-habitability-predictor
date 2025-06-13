@@ -60,7 +60,7 @@ exoplanet-habitability-predictor/
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/<your-username>/exoplanet-habitability-predictor.git
+   git clone https://github.com/joshi-parwaaz/exoplanet-habitability-predictor.git
    cd exoplanet-habitability-predictor
    ```
 
@@ -87,10 +87,6 @@ All data prep, training, evaluation, and demos live in `notebooks/`. You can lau
   ```bash
   jupyter lab
   ```
-
-- **In the cloud using Binder (no install needed):**
-
-  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/<your-username>/exoplanet-habitability-predictor/HEAD)
 
 ### 2. Preprocess & Train via Scripts
 
